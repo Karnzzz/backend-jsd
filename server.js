@@ -26,6 +26,7 @@ const allowedOrigins = [
   "http://localhost:5172", // For local development
   "http://localhost:5173", // For local development
 ];
+
 // Configure CORS
 app.use(
   cors({
